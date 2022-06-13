@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+/*Element Selector*/
+h1{
+    font-size: 60px;
+    color: black;
+} 
+h2{
+    font-size: 40px;
+}
+/* class selector */
+.heading-secondary{
+    color: rgb(116, 137, 137);
+
+}
+/* ID selector */
+#heading-sub{
+    color: rgb(24, 88, 144);
+    font-size: 30px;
+}
+.profile-pic{
+    height: 300px;
+    border: 4px rgb(52, 64, 229) solid;
+    border-radius: 50%;
+}

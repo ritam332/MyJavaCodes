@@ -31,9 +31,15 @@ public class ForLoopPrimeNo {
             return false;
         }
         for (int i = 2; i <=Math.sqrt(num); i++) {
+        System.out.println("Loop "+i);
             if (num % i == 0) return false;}
             return true;
         }
+//        for (int i = 2; i <=num/2; i++) {
+//            System.out.println("Loop "+i);
+//        if (num % i == 0) return false;}
+//            return true;
+//}
     }
 
 

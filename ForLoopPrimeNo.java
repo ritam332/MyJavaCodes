@@ -4,11 +4,21 @@ public class ForLoopPrimeNo {
         System.out.println(isPrime(16));
         int count=0;
         System.out.println("The Prime No.s are ");
-        for (int i=1;i<100;i++){
+//        for (int i=1;i<100;i++){
+//            if (isPrime(i)){
+//              count++;
+//                System.out.println(i+" ");
+//                if (count==5) {
+//                    System.out.println("Exiting Loop");
+//                    break;
+//                }
+//            }
+//        }
+        for (int i=10;i<=50;i++){
             if (isPrime(i)){
-              count++;
+                count++;
                 System.out.println(i+" ");
-                if (count==5) {
+                if (count==5){
                     System.out.println("Exiting Loop");
                     break;
                 }
@@ -20,7 +30,7 @@ public class ForLoopPrimeNo {
         if (num == 1) {
             return false;
         }
-        for (int i = 2; i <=num/2; i++) {
+        for (int i = 2; i <=Math.sqrt(num); i++) {
             if (num % i == 0) return false;}
             return true;
         }
